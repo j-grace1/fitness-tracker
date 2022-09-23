@@ -1,10 +1,16 @@
 <section>
-    <form >
-        <mat-form-field >
-            <input type="email" placeholder="Enter your email" matInput>
-        </mat-form-field>
-        <mat-form-field >
-            <input type="password" placeholder="Enter your email" matInput>
-        </mat-form-field>  
-    </form>
+    <div class="form" >
+        
+        <div id ='info' fxLayout='column' fxLayoutAlign="center center">
+            <form >
+                <mat-slider min="1" max="100" step="1" value="50">this a mat-slider</mat-slider>
+            </form>
+            <mat-form-field>
+                <input type="email" placeholder="Your Email" matInput>
+            </mat-form-field>
+            <mat-form-field>
+                <input type="password" placeholder="Your password" matInput>
+            </mat-form-field>
+        </div>
+    </div>
 </section>
